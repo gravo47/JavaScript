@@ -17,7 +17,7 @@ console.log(corPad);*/
 const a = 0;
 const b = false;
 const c = NaN;
-const d = 'false'; //valor que foi exebido no console
+const d = 'false'; //valor que foi exibido no console
 const e = undefined;
 
 console.log(a || b || c || d || e);
