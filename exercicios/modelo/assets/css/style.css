@@ -1,0 +1,49 @@
+:root {
+    --primary-color: rgba(0, 78, 90, 0.844);
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 15px;
+    height: 9vh;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+}
