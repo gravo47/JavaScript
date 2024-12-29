@@ -5,6 +5,7 @@
 //     i++;
 // };
 
+//FUNÇÃO DE GERADOR DE NÚMEROS ALEATÓRIO//
 function random(min, max){
     const r = Math.random() * (max - min) + min;
     return Math.round(r);
