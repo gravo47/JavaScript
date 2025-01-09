@@ -1,26 +1,26 @@
-// function falaOi() {
-//     console.log('oi');
-// };
+function falaOi() {
+    console.log('oi');
+};
 
-// falaOi('Valor');
+falaOi('Valor');
 
-// function funçao() {
-//     let total = 0;
-//     for (let argumento of arguments) {
-//         total += argumento;
-//     }
-//     console.log(total);
-// };
+function funçao() {
+    let total = 0;
+    for (let argumento of arguments) {
+        total += argumento;
+    }
+    console.log(total);
+};
 
-// funçao(5,8);
+funçao(5,8);
 
-// function cadastro({nome , sobrenome, idade}){
-//     console.log(nome, sobrenome, idade);
-// };
+function cadastro({nome , sobrenome, idade}){
+    console.log(nome, sobrenome, idade);
+};
 
-// let obj = {nome: 'Andrei', sobrenome: 'Gravonski', idade: 19};
+let obj = {nome: 'Andrei', sobrenome: 'Gravonski', idade: 19};
 
-// cadastro(obj);
+cadastro(obj);
 
 function soma(operador, acumulador, ...numeros){
     for (let number of numeros){
