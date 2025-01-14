@@ -1,0 +1,90 @@
+:root {
+    --primary-color: rgba(0, 78, 90, 0.844);
+    --second-color: rgba(1, 58, 66, 0.844);
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 15px;
+    height: 9vh;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--second-color);
+}
+
+.calculadora {
+    width: 50vw;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 10vh;
+    font-size: 1.2em;
+    border: none;
+    background: rgba(187, 190, 194, 0.67);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(72, 72, 72, 0.437);
+}
+
+.btn-eq {
+    background: royalblue;
+}
